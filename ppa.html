@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>prj & act - JISUKBYUN.INFO</title>
+</head>
+
+
+<body>
+    <h1>Previous Projects and Activities</h1>
+
+    <p>Recent projects and activities are described at <a href="index.html">index page</a>.</p>
+
+    <hr>
+
+    <h2>Projects</h2>
+    <p><ul>
+        <li>
+            Sub-C, a subset of C language defined for compiler-course education purpose
+            (<a href="https://github.com/cushionbadak/Compiler2020_Public">Repository Link</a>)
+            <ul>
+                <li>2020.03 ~ 2020.06</li>
+            </ul>
+        </li>
+
+        <li>
+            SweepFlaw, the fast correction tool for miswritten C++ variables
+            (<a href="https://github.com/SweepFlaw">Respository Link</a>)
+            <ul>
+                <li>2019.09 ~ 2019.12</li>
+                <li>This project was conducted with <a href="https://github.com/hongjisung">Jisung Hong</a>.</li>
+                <li>
+                    Description
+                    <ul><li>
+                        SweepFlow can fix wrong C++ program that doesn't meet some test cases,
+                        if the given C++ program wrote variable incorrectly.
+                        The brute force solution has O(n*m) complexity for n variables and m code-points where the variable appears,
+                        and we solved this problem faster using machine learning.
+                    </li></ul>
+                </li>
+                <li>
+                    Motivation
+                    <ul><li>
+                        At algorithm problem-solving website (e.g. codeforces.com),
+                        we found that some users are struggling with correct their variable misused code.
+                        This kind of error is trivial but the debugging is time-consuming.
+                    </li></ul>
+                </li>
+                <li>
+                    We used the LLVM Clang library and machine learning to deal with this problem.
+                    I mainly contributed to dealing with the C++ code(parsing, find scopes, ...) using the LLVM Clang library.
+                    Jisung Hong mainly contributed to collect benchmark codes from codeforces.com, and write machine learning parts to speculate which code-points are likely to be wrong.
+                </li>
+            </ul>
+        </li>
+    </ul></p>
+
+    <hr>
+
+    <p>GOTO <a href="index.html">index page</a>.</p>
+
+    <footer>
+        Last updated at 2020 Jul 6
+    </footer>
+</body>
+
+</html>
